@@ -1,0 +1,72 @@
+body{
+    background-color:lightblue;
+    text-align: center;
+}
+article {
+  padding: 20px;
+  background: #ffffff;
+  max-width: 600px;
+  margin: 50px auto;
+}
+ h1{
+font-style: italic;
+text-align: center;
+
+
+ }
+ ul{
+
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+ }
+ h2{
+
+    font-style: italic;
+    text-align: center;
+ }
+ p{
+   font-size: large;
+   text-align: center;
+   
+
+ }
+ .resume{
+     
+    text-align: center;
+    border-bottom: 1px solid lightcoral;
+    margin: 1em 2em;
+    padding-bottom: 0.5em;
+   
+ }
+ li{
+     text-align: center;
+     text-shadow: lightcyan;
+ }
+ ol{
+     text-align: center;
+     font-size: larger;
+     font-style:normal;
+      }
+ 
+ @keyframes move{
+   0%   {transform: translateY(100px);}
+   25%  {transform: translateX(100px);}
+   50%  {transform: translateY(10px);}
+   100% {transform: translateX(10px);}
+
+
+ }  
+
+#hire{
+animation:move 1s linear  infinite ;
+
+
+}
+    
+#Fruit{
+margin-left: 700px;
+
+}
+         
+      
